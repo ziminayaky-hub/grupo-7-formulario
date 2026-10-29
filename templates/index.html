@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta sobre IA</title>
+</head>
+<body>
+    <h1>Encuesta: la IA y el estudio</h1>
+
+    <p>{{ mensaje }}</p>
+
+    <form action="/guardar" method="POST">
+        <label for=" nombre">Nombre</label>
+        <input type=" text" name="nombre" placeholder="ïngrese su nombre"> 
+        <label for=" correo">Correo</label>
+        <input type=" text" name="correo" value="est.example@unifrans.edu.bo"  placeholder="ingrese su correo"required > 
+        <p><b>1. ¿Qué postura percibes en tus docentes respecto al uso de la IA para estudiar?</b></p>
+        <input type="radio" name="p1" value="Están de acuerdo con su uso." required> Están de acuerdo con su uso.<br>
+        <input type="radio" name="p1" value="La permiten bajo ciertas condiciones." required> La permiten bajo ciertas condiciones.<br>
+        <input type="radio" name="p1" value="Prefieren que no se utilice."required> Prefieren que no se utilice.<br>
+        <input type="radio" name="p1" value="No conozco su postura."required> No conozco su postura.<br>
+
+        <p><b>2. ¿Con qué frecuencia utilizas IA para estudiar?</b></p>
+        <input type="radio" name="p2" value="Siempre o casi siempre." required> Siempre o casi siempre.<br>
+        <input type="radio" name="p2" value="Frecuentemente."required> Frecuentemente.<br>
+        <input type="radio" name="p2" value="A veces."required> A veces.<br>
+        <input type="radio" name="p2" value="Nunca." required> Nunca.<br>
+
+        <p><b>3. ¿Para qué recurres a la IA cuando estudias?</b></p>
+        <input type="radio" name="p3" value="Para comprender temas difíciles." required> Para comprender temas difíciles.<br>
+        <input type="radio" name="p3" value="Para resolver tareas o ejercicios." required> Para resolver tareas o ejercicios.<br>
+        <input type="radio" name="p3" value="Para resumir información."required> Para resumir información.<br>
+        <input type="radio" name="p3" value="No la utilizo para estudiar." required> No la utilizo para estudiar.<br>
+
+        <p><b>4. ¿Qué cambios has notado en tu rendimiento académico al utilizar IA?</b></p>
+        <input type="radio" name="p4" value="Ha mejorado." required> Ha mejorado.<br>
+        <input type="radio" name="p4" value="Sigue igual." required> Sigue igual.<br>
+        <input type="radio" name="p4" value="Ha empeorado."required> Ha empeorado.<br>
+        <input type="radio" name="p4" value="No sabría decirlo."required> No sabría decirlo.<br>
+
+        <p><b>5. ¿Qué haces cuando tienes dudas sobre una respuesta de la IA?</b></p>
+        <input type="radio" name="p5" value="Consulto otras fuentes." required> Consulto otras fuentes.<br>
+        <input type="radio" name="p5" value="Comparo con mis apuntes." required> Comparo con mis apuntes.<br>
+        <input type="radio" name="p5" value="Pregunto a otra persona." required> Pregunto a otra persona.<br>
+        <input type="radio" name="p5" value="Generalmente no la verifico."  required> Generalmente no la verifico.<br>
+        <br>
+        <button type="submit">Enviar</button>
+        <img src="GRACIAS WIWI.webp" height="300"/>
+    </form>
+
+    <P> formulario por el grupo 7 <br>Ailin Melani Cabaza Mayta<br>Miguel Mauricio Callisaya Loza<br>Pablo Mateo Camacho Gonzales <br> Dalmir Calamani Palluca </P>
+</body>
+</html>
